@@ -1,6 +1,7 @@
 # Flutter/Dart/Pub related
 .dart_tool/
 .packages
+.pub/
 build/
 flutter_*.png
 generated_plugin_registrant.dart
@@ -10,20 +11,34 @@ ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
 ios/Pods/
 ios/.symlinks/
-ios/Runner.xcworkspace
+ios/Runner.xcworkspace/
 ios/Runner.xcodeproj/project.xcworkspace/
 ios/Runner.xcodeproj/xcuserdata/
+ios/.gradle/
+ios/build/
 
 # Android
 android/.gradle/
 android/app/build/
 android/local.properties
+android/build/
 
 # VS Code
 .vscode/
 
 # macOS
 .DS_Store
+macos/
+macos/Flutter/ephemeral/
+macos/build/
+
+# Windows
+windows/
+windows/build/
+
+# Linux
+linux/
+linux/build/
 
 # Web
 web/.dart_tool/
@@ -33,3 +48,9 @@ web/build/
 *.log
 *.lock
 *.tmp
+*.iml
+.metadata
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+screenshots/*.psd
